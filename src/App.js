@@ -6,10 +6,18 @@ class App extends React.Component {
     return a / b;
   }
 
+  add(a, b) {
+    return a + b
+  }
+
+  multiply(a, b) {
+    return a - b;
+  }
+
   render() {
     return (
       <div className="App">
-        Calculadora
+        Calculadora mágica!!
       </div>
     );
   }
